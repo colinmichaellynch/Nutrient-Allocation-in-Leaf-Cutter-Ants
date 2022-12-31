@@ -37,8 +37,8 @@ Leafcutter ants forage for leaves so that they can grow fungus gardens in their 
   
   * In the simulated case, there are specialists that focus on one food item or the other, but there are also a lot of cases where ants generalize and forage from both food items, which smooths out the correlation. 
   
-  * The relationship between a virtual ant's threshold for one food item or the other determines where they land on this plot: 
+  * The relationship between a virtual ant's threshold for one food item or the other determines where they land on this distribution. The differences in the thresholds determine how specialized an individual is on one food item or the other, while the sum determines how often they forage.  
   
   threshold
   
-  * Conversely, the distribution virtual ants without response threshold (and thus choose food item
+  * Conversely, virtual ants that choose food items randomly create a differently-shaped distribution, and thus we suspect that the real ants are not behaving randomly: 
