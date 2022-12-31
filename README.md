@@ -25,7 +25,7 @@ Leafcutter ants forage for leaves so that they can grow fungus gardens in their 
     * Typical equations for the response thrshold (the Hill function) cannot handle negative signals, so I introduce a new formulation for response thresholds derived from the study of neural networks: a softmax function. My arguments for using these types of functions over softmax functions can be found here. 
   - I track individual choices over time, seeing how often virtual ants forage and the proportion of trips they make to one food item or the other. 
   
-  ## Results 
+## Results 
   
   * Simulation results closely follow experimental results. That is, virtual ants forage as often as real ants and make the same proportion of trips to one food item:
   
