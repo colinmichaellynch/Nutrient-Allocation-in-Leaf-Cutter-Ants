@@ -4,14 +4,10 @@ Designed Markovian Model to Help Interpret Experimental Results of Leafcutter Nu
 ## Table of Contents
 
 * Supporting Documentation
-  - Model Description
-  - Justification for Softmax Function
-* Data
-  - Experimental Data
-  - Simulation Data
-* Scripts 
-  - Simulation Script
-  - Data Analysis Script
+  - [Model Description](https://github.com/colinmichaellynch/Nutrient-Allocation-in-Leaf-Cutter-Ants/blob/main/Response%20Threshold%20Model%20for%20Nutrient%20Allocation%20.docx)
+  - [Justification for Softmax Function](https://github.com/colinmichaellynch/Nutrient-Allocation-in-Leaf-Cutter-Ants/blob/main/Modeling%20response%20thresholds%20for%20multiple%20simultaneous%20stimuli%20using%20a%20Boltzmann-sampling%20approach.docx)
+* [Data](https://github.com/colinmichaellynch/Nutrient-Allocation-in-Leaf-Cutter-Ants/blob/main/ExperimentalDataTotal.csv)
+* [Simulation and Analysis Script](https://github.com/colinmichaellynch/Nutrient-Allocation-in-Leaf-Cutter-Ants/blob/main/SoftmaxModelJustAdditiveAcrossColonies.m)
 
 ## Background
 
@@ -33,12 +29,14 @@ Leafcutter ants forage for leaves so that they can grow fungus gardens in their 
   
   * Simulation results closely follow experimental results. That is, virtual ants forage as often as real ants and make the same proportion of trips to one food item:
   
-  experiment
+![](/Images/experimentVsSim.png)
   
   * In the simulated case, there are specialists that focus on one food item or the other, but there are also a lot of cases where ants generalize and forage from both food items, which smooths out the correlation. 
   
   * The relationship between a virtual ant's threshold for one food item or the other determines where they land on this distribution. The differences in the thresholds determine how specialized an individual is on one food item or the other, while the sum determines how often they forage.  
   
-  threshold
+![](/Images/responseThresholds.png)
   
   * Conversely, virtual ants that choose food items randomly create a differently-shaped distribution, and thus we suspect that the real ants are not behaving randomly: 
+
+![](/Images/randomForaging.png)
