@@ -40,11 +40,11 @@ Leafcutter ants forage for leaves so that they can grow fungus gardens in their 
 * In the following figure, we show the proportion of trips a virtual ant took to food item B (x-axis) against the total number of trips that ant took (y-axis). Color gives the difference of the ant's two response thresholds, and size shows the sum of those thresholds. 
 
 <p align="center">
-  <img src=responseThresholds.png>
+  <img src=/Images/responseThresholds.png>
 </p>
   
 * Conversely, virtual ants that choose food items randomly create a differently-shaped distribution, and thus we suspect that the real ants are not behaving randomly: 
 
 <p align="center">
-  <img src=randomForaging.png>
+  <img src=/Images/randomForaging.png>
 </p>
