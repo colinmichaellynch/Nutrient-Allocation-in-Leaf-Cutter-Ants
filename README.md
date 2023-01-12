@@ -29,16 +29,22 @@ Leafcutter ants forage for leaves so that they can grow fungus gardens in their 
   
 * Simulation results closely follow experimental results. That is, virtual ants forage as often as real ants and make the same proportion of trips to one food item:
   
-![](/Images/experimentVsSim.png)
+<p align="center">
+  <img src=/Images/experimentVsSim.png>
+</p>
   
 * In the simulated case, there are specialists that focus on one food item or the other, but there are also a lot of cases where ants generalize and forage from both food items, which smooths out the correlation. 
   
 * The relationship between a virtual ant's threshold for one food item or the other determines where they land on this distribution. The differences in the thresholds determine how specialized an individual is on one food item or the other, while the sum determines how often they forage.  
 
 * In the following figure, we show the proportion of trips a virtual ant took to food item B (x-axis) against the total number of trips that ant took (y-axis). Color gives the difference of the ant's two response thresholds, and size shows the sum of those thresholds. 
-  
-![](/Images/responseThresholds.png)
+
+<p align="center">
+  <img src=responseThresholds.png>
+</p>
   
 * Conversely, virtual ants that choose food items randomly create a differently-shaped distribution, and thus we suspect that the real ants are not behaving randomly: 
 
-![](/Images/randomForaging.png)
+<p align="center">
+  <img src=randomForaging.png>
+</p>
